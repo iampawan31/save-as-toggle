@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "Save as toggle",
+    "description": "Simple toggle extension that allows user to switch on save as download option using shortcut key.",
+    "version": "1.0.0",
+    "icons": {
+        "128": "extension_128.svg"
+    },
+    "browser_action": {
+        "default_icon": "extension_disabled.svg",
+        "default_popup": "popup.html"
+    },
+    "permissions": ["activeTab"]
+}
